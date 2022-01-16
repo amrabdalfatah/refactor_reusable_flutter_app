@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'star_rating.dart';
+
 class ProfileDetails extends StatelessWidget {
   const ProfileDetails({Key? key}) : super(key: key);
 
@@ -16,6 +18,9 @@ class ProfileDetails extends StatelessWidget {
               fontSize: 36,
               fontWeight: FontWeight.bold,
             ),
+          ),
+          const StarRating(
+            value: 5,
           ),
           _buildRowText('Age', '4'),
           _buildRowText('Status', 'Good Boy'),
