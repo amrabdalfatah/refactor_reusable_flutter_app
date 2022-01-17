@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'profile_screen.dart';
+import 'routes/profile_screen.dart';
 
 void main() {
   runApp(const ProfileApp());
